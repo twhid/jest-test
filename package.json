@@ -1,0 +1,21 @@
+{
+  "name": "jest-test",
+  "version": "1.0.0",
+  "description": "Testing __mocks__ location vis a vis node_modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Tim Whidden <tim@1stdibs.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "15.1.1"
+  },
+  "engines" : { 
+    "node" : ">=4.5.0" 
+  },
+  "dependencies": {
+    "noop": "0.2.2"
+  }
+}
